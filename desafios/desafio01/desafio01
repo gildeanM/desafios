@@ -1,0 +1,6 @@
+Imagine que você é um desenvolvedor de um sistema de
+gerenciamento de estoque de uma loja de produtos eletrônicos e precisa criar
+uma função em JavaScript que recebe como entrada um vetor contendo o número de
+unidades de cada produto em estoque e outro vetor contendo o número de unidades
+vendidas de cada produto. A função deve retornar um novo vetor com o número de
+unidades restantes em estoque de cada produto.
