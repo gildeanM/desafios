@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    
     <title>Desafio 01</title>
 </head>
 <body>
@@ -12,6 +13,8 @@
             <input type="text" id="produto" placeholder="Produto">
             <input type="number" id="quantidadeProduto" placeholder="Quantidade">
             <button type="submit" onclick="setEstoque()">CADASTRAR</button>
+            <br>
+            <a href="second.html" target="_blank">verificar estoque</a>
         </div>
         
         <div id="venda">
@@ -23,7 +26,9 @@
         
         <div id="newEstoque">
             <h1>ESTOQUE ATUALIZADO</h1>
-            <p></p>
+            <p id="newId"></p>
+            <p id="newProduto"></p>
+            <p id="newQuantidade"></p>
         </div>
         
         
