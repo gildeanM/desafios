@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio 03</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <section>
+        <div id="setObjeto">
+            <h1>Registre seu filme</h1>
+            <label for="titulo">Título</label>
+            <input type="text" name="titulo" id="titulo">
+            <br>
+            <label for="anoL">Ano de Lançamento</label>
+            <input type="text" name="anoL" id="anoL">
+            <br>
+            <label for="diretor">Diretor</label>
+            <input type="text" name="diretor" id="diretor">
+            <br>
+            <label for="genero">Gênero</label>
+            <input type="text" name="genero" id="genero">
+
+            <h3>Elenco</h3>
+            <label for="nomeE">Nome de um personagem do enredo</label>
+            <input type="text" name="nomeE" id="nomeE">
+            <label for="papelE">Papel deste</label>
+            <input type="text" name="papelE" id="papelE">
+            <button type="submit" onclick="setObject()">Registrar</button>
+        </div>
+        <div id="seeObject">
+            <h3>Informações Gerais</h3>
+            <h4>Título</h4>
+            <p id="seeTitulo"></p>
+            <h4>Ano de Lançamento</h4>
+            <p id="seeAnoL"></p>
+            <h4>Diretor</h4>
+            <p id="seeDiretor"></p>
+            <h4>Gênero</h4>
+            <p id="seeGenero"></p>
+            <h3>Informações Elenco</h3>
+            <h4>Nome</h4>
+            <p id="seeNomeE"></p>
+            <h4>Papel</h4>
+            <p id="seePapelE"></p>
+
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

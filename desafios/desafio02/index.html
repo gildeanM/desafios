@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio 02</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <section>
+        <div action="" id="infoProjeto">
+            <label for="projeto">PROJETO</label>
+            <input type="text" name="projeto" id="projeto" placeholder="nome">
+
+            <label for="numHoras">DURAÇÃO</label>
+            <input type="number" name="numHoras" id="numHoras" placeholder="em horas">
+
+            <label for="estado">ESTADO</label>
+            <select name="estado" id="estado">
+                <option value="false">A FAZER</option>
+                <option value="false2">FAZENDO</option>
+                <option value="true">FEITO</option>
+            </select>
+
+            <button type="submit" onclick="registrar()">REGISTRAR</button>
+
+        </div>
+
+        <div id="info">
+            <table id="tab" class="sTab">
+                <tr class="sTab">
+                    <th >PROJETO</th>
+                    <th>DURAÇÃO/H</th>
+                    <th>ESTADO</th>
+                </tr>
+               
+
+            </table>
+
+        </div>
+
+
+    </section>
+    <footer>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

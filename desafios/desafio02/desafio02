@@ -1,0 +1,3 @@
+Imagine que você é um desenvolvedor de um sistema de gerenciamento de projetos e precisa criar uma função em 
+JavaScript que recebe como entrada o nome do projeto, o número de horas estimadas para o projeto e um valor 
+booleano indicando se o projeto está concluído ou não. A função deve retornar um vetor contendo essas informações.

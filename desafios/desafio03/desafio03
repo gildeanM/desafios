@@ -1,0 +1,4 @@
+Imagine que você está desenvolvendo um sistema de gerenciamento de filmes e precisa criar um objeto em JavaScript 
+para armazenar informações de um filme, como título, ano de lançamento, diretor e gênero. Além disso, você precisa 
+adicionar um objeto dentro desse objeto principal para armazenar informações do elenco do filme, como nome e papel 
+de cada ator. Também é necessário adicionar um método ao objeto para imprimir as informações do filme.

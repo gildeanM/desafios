@@ -1,12 +1,14 @@
 var estoque = [];
 var emEstoque = false;
-var id = 0;
+var id;
 
 
 function setEstoque(){
     var produto = document.getElementById("produto").value;
     var quantidade = parseInt(document.getElementById("quantidadeProduto").value);
    
+    id = 0;
+
     if(estoque.length >= 1){
         for(; id < estoque.length; id++){
             
@@ -30,19 +32,27 @@ function setEstoque(){
             produto: produto,
             quantidade: quantidade
         })
+        
     }
 
-    var save = estoque;
 
-    return save;
+    console.log(estoque);
+   return estoque;
+
 }
 
-console.log(save)
+
 
 function setVenda(){
+    if(estoque.length > 0){
     var produtoVendido = document.getElementById("produtoVendido").value;
     var quantidadeVendida = parseInt(document.getElementById("quantidadeVendida").value);
 
+
+    
+    id = 0;
+
+   
     for(; id < estoque.length; id++){
 
         if(estoque[id].produto == produtoVendido){
@@ -57,20 +67,18 @@ function setVenda(){
     document.getElementById("newId").innerHTML = `ID ${estoque[id].id}`;
     document.getElementById("newProduto").innerHTML = `PRODUTO ${estoque[id].produto}`;
     document.getElementById("newQuantidade").innerHTML = `QUANTIDADE ${estoque[id].quantidade}`;
+    
+    
+    }
+    
+    console.log(estoque);
+   
+    
 }
 
 
-// window.onload = function pageEstoque(){
-   
+
+
+
+
     
-//     if(estoque.length > 0){
-        
-//         console.log(estoque)
-
-//     }else{
-
-//         document.getElementById("estoquePage").innerHTML = "abcd";
-
-//     }
-
-// }
